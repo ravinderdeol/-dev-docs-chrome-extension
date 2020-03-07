@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Dev Docs Launcher",
-  "description": "Launch Developer Documentation In A Fast & Organised Way",
+  "description": "Quickly Launch Developer Documentation",
   "version": "1.0",
   "icons": {"128": "icon_128.png"},
   "browser_action": {

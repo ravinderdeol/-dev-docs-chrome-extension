@@ -1,0 +1,87 @@
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 180px;
+  padding: 0;
+  width: 384px;
+}
+
+h1 {
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+  color: #0e172c;
+}
+
+p {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #0e172c;
+}
+
+a:link, a:visited {
+  color: #0e172c;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+  outline: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.modal-header {
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+}
+
+/* .half_background {
+  background: linear-gradient(to top, #fec7d7 50%, transparent 50%);
+} */
+
+.modal-icons {
+  height: 50px;
+  width: 100%;
+}
+
+.language-icon {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.logo {
+  padding: 16px;
+  font-weight: bolder;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.flex {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  width: 120px;
+}
+
+.flex-hover {
+  opacity: 0.4;
+}
+
+.flex img {
+  font-size: 40px;
+}
